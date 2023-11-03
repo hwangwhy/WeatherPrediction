@@ -49,7 +49,7 @@ public class Prepare {
         String Weather = " Thời tiết: " + result.getList()[idx].getWeather()[0].getDescription();
         String Temp = " Nhiệt độ: " + result.getList()[idx].getMain().getTemp() + " độ C";
         String Pressure = " Ap xuất: " + result.getList()[idx].getMain().getPresure();
-        String Humid = " Độ ẩm: " + result.getList()[idx].getMain().getHumidity();
+        String Humid = " Độ ẩm: " + result.getList()[idx].getMain().getHumidity() + "%";
         String Speed = " Tốc độ gió: " + result.getList()[idx].getWind().getSpeed();
         String Cloud = " Mây: " + result.getList()[idx].getClouds().getAll() + "%";
         
