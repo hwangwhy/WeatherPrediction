@@ -19,7 +19,7 @@ public class GUI extends javax.swing.JFrame {
      */
     public GUI() {
         initComponents();
-        setSize(665, 484);
+        setSize(751, 560);
         this.setBounds(300, 300, 665, 520);
         jPanel1.setVisible(true);
     }
@@ -114,7 +114,7 @@ public class GUI extends javax.swing.JFrame {
         Weather.setText("Weather");
 
         changeCity.setBackground(new java.awt.Color(255, 175, 175));
-        changeCity.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ha Noi", "Da Nang", "SaiGon" }));
+        changeCity.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "HaNoi", "DaNang", "SaiGon" }));
         changeCity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 changeCityActionPerformed(evt);
