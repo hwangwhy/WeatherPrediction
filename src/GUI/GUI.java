@@ -114,7 +114,7 @@ public class GUI extends javax.swing.JFrame {
         Weather.setText("Weather");
 
         changeCity.setBackground(new java.awt.Color(255, 175, 175));
-        changeCity.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ha Noi", "Da Nang", "Sai Gon" }));
+        changeCity.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ha Noi", "Da Nang", "SaiGon" }));
         changeCity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 changeCityActionPerformed(evt);
